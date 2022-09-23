@@ -25,11 +25,7 @@ public class Produto {
 	@Size(min = 5, max = 500)
 	private String descricao;
 	
-	@NotBlank
 	private Double preco;
-	
-	@NotBlank
-	private Integer estoque;
 	
 	private String foto;
 
@@ -63,14 +59,6 @@ public class Produto {
 
 	public void setPreco(Double preco) {
 		this.preco = preco;
-	}
-
-	public Integer getEstoque() {
-		return estoque;
-	}
-
-	public void setEstoque(Integer estoque) {
-		this.estoque = estoque;
 	}
 
 	public String getFoto() {
