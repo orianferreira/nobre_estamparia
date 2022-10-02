@@ -52,12 +52,7 @@ public class CategoriaController {
 	}
 
 	@DeleteMapping("/{id}")
-	public void delete(@PathVariable Long id) {
-		repository.deleteById(id);
-	}
-
-	@DeleteMapping("/{id}")
-	public void delete(@PathVariable Long id) {
+	public void Delete(@PathVariable Long id) {
 		repository.deleteById(id);
 	}
 }
